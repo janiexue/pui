@@ -27,7 +27,7 @@ h1 {
 
 h2 {
   line-height: 0;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 a {
@@ -45,16 +45,16 @@ a {
   overflow: hidden;
 }
   /* style the header links */
-  .header a {
-    float: left;
-    color: #404040;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 15px;
-    border-radius: 4px;
-    align-items: center;
+.header a {
+  float: left;
+  color: #404040;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 15px;
+  border-radius: 4px;
+  align-items: center;
   }
   
   /* style the logo link */
@@ -70,7 +70,7 @@ a {
   }
   
   /* float the link section to the right */
-  .header-right {
+  .headerRight {
     float: right;
   }
 
@@ -79,7 +79,6 @@ a {
     border: 3px solid #404040;
     color: #404040;
     background-color: #EEEBE9;
-    padding: 10px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -92,8 +91,9 @@ a {
     border-radius: 20px;
   }
   
-  .long-button {
+  .longButton {
     width: 300px;
+    padding: 10px;
   }
 
 /* for each page's main content */
@@ -101,14 +101,14 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 80%;
     text-align: center;
     align-items: center;
     padding: 10px;
 
 }/* column styling */
 .column {
-    flex: 75%;
+    flex: 80%;
   }
 
 .column img {
@@ -132,10 +132,10 @@ a {
 
 /* product cards */
 .pcard {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    padding: 25px;
-    margin: 10px 60px 20px 10px;
+    padding: 15px;
+    margin: 10px 30px 20px 10px;
     background-color: #E7E3DF;
     border-radius: 20px;
     text-align: center;
@@ -143,16 +143,15 @@ a {
     float: left;
   }
 
-.pcard-text {
+.pcardText {
     width: 0;
     min-width: 100%;
     text-align: left;
     margin: 1rem 1rem -1rem 1rem;
 }
-
   
 /* id styling */
-#center-image {
+#centerImage {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -166,6 +165,10 @@ a {
 }
 #arrow {
     padding: 10px 8px 0px 8px;
+}
+
+#photoTitle {
+    padding: 120px 0px 0px 0px;
 }
 
 
