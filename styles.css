@@ -191,6 +191,7 @@ a {
 .pdetails {
     text-align: left;
     margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 /* shop card styling for PROD */
