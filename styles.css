@@ -16,6 +16,7 @@ body {
   color: #404040;
 }
 
+/* general text format */
 p {
   font-family: 'Rubik', Helvetica, sans-serif; 
   font-size: 20px; 
@@ -30,6 +31,11 @@ h2 {
   font-size: 28px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
+/* link styling */
 a {
   color: #404040;
   text-decoration: none;
@@ -76,6 +82,7 @@ a {
 
 /* styling button */
 .button {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     border: 3px solid #404040;
     color: #404040;
     background-color: #EEEBE9;
@@ -83,17 +90,18 @@ a {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    font-size: 30px;
     font-family: 'Rubik', Helvetica, sans-serif;
-    margin: 0px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 20px;
+    padding: 10px 20px;
+    margin: -0.5rem 0rem;
+    vertical-align: middle;
   }
   
   .longButton {
-    width: 300px;
-    padding: 10px;
+    border: 3px solid #404040;
+    padding: 10px 100px;
   }
 
 /* for each page's main content */
@@ -104,14 +112,27 @@ a {
     width: 80%;
     text-align: center;
     align-items: center;
-    padding: 10px;
+}
 
-}/* column styling */
+/* column styling */
 .column {
-    flex: 80%;
+    flex: 100%;
+    clear: both;
   }
 
-.column img {
+.left {
+    width: 35%;
+    float: left;
+}
+
+.right {
+    width: 55%;
+    clear:both;
+}
+
+
+/* photo grid styling */
+.grid {
     margin: 10px;
     vertical-align: middle;
 }
@@ -119,18 +140,18 @@ a {
 /* inline styling */
 .inline {
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0px px;
     bottom: auto;
 }
 
-/* page title */
+/* title styling */
 .title {
     float: left;
-    padding: 10px;
+    margin: 0px 10px;
     clear: both;
 }
 
-/* product cards */
+/* product cards for MENU */
 .pcard {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -147,10 +168,71 @@ a {
     width: 0;
     min-width: 100%;
     text-align: left;
-    margin: 1rem 1rem -1rem 1rem;
+    margin: 1rem 1rem -0.5rem 1rem;
 }
+
+/* product description styling for PROD */
+.pimage {
+    padding: 0px 10px 10px 0px;
+    float: left;
+    margin: 0px 10px 20px 10px;
+    display: block;
+}
+
+.pdes {
+    text-align: left;
+    margin-left: 10px;
+    padding: 0px;
+    line-height: 25px;
+}
+
+/* shop card styling for PROD */
+
+/* overall card */
+.scard {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    padding:  10px 20px 20px 20px;
+    margin: 80px 10px 20px 10px;
+    background-color: #E7E3DF;
+    border-radius: 20px;
+    text-align: left;
+    font-family: 'Rubik', Helvetica, sans-serif; 
+    float: right;
+    width: 60%;
+    line-height: 5px;
+}
+
+/* italic descriptions */
+.sdes {
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* option buttons */
+.option {
+    border: 2px solid #404040;
+    color: #404040;
+    background-color: #EEEBE9;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin: 5px 5px 5px 0px;
+  }
+
+.price {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: right;
+    clear: both;
+    padding: 0px 10px;
+}
+
   
 /* id styling */
+
 #centerImage {
     display: block;
     margin-left: auto;
@@ -163,6 +245,11 @@ a {
 #cart {
     padding: 8px 15px;
 }
+
+#cart2 {
+    margin: 0px 10px -8px 0px;
+}
+
 #arrow {
     padding: 10px 8px 0px 8px;
 }
@@ -170,6 +257,7 @@ a {
 #photoTitle {
     padding: 120px 0px 0px 0px;
 }
+
 
 
 
