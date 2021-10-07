@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-* {
-  box-sizing: border-box;
-}
+/* css file for bun bun bakery */
 
 body {
   font-family: 'Rubik', Helvetica, sans-serif;
@@ -66,7 +56,6 @@ a {
   /* style the logo link */
   .header a.logo {
     font-size: 15px;
-    font-weight: medium;
   }
   
   /* style the active/current link*/
@@ -104,6 +93,10 @@ a {
     padding: 10px 100px;
   }
 
+.arrow {
+    padding: 10px 8px 0px 8px;
+}
+
 /* for each page's main content */
 .center {
     display: block;
@@ -140,7 +133,6 @@ a {
 /* inline styling */
 .inline {
     display: inline-block;
-    padding: 0px px;
     bottom: auto;
 }
 
@@ -264,16 +256,8 @@ a {
     margin: 0px 10px -8px 0px;
 }
 
-#arrow {
-    padding: 10px 8px 0px 8px;
-}
+
 
 #photoTitle {
     padding: 120px 0px 0px 0px;
 }
-
-
-
-
-</style>
-</head>
