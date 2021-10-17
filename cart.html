@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- this is CART page for bun bun bakery -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bun Bun Bake Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header and navigation -->
+  <div class="header">
+    <a href="index.html" class="logo"><img src="images/bun bun.png" alt="bun bun logo"></a>
+    <div class="headerRight">
+      <a href="index.html">home</a>
+      <a href="#about">about</a>
+      <a href="menu.html">menu/order</a>
+      <a id="cart" href="cart.html"><img src="images/cart.png" alt="cart"></a>
+      <p class="inline" id="cartItems">(1)</p>
+    </div>
+  </div>
+   
+  <!-- center content -->
+  <div class="center">
+    <h1 class="title"> your cart (1)</h1>
+  </div>
+
+  <div class="center">
+      <div class="inCart">
+          <img src="images/line.png" alt="line">
+          <span>
+          <img class="leftAlign cartPic"
+            src="images/bunbb-mini.png" alt="blackberry bun">
+          <div class="leftAlign cartText">
+            <h3> the blackberry bun </h3>
+            <p> glaze: none</p>
+            <p> quantity: 6</p>
+          </div>
+
+          <div class="rightAlign cartText">
+              <h3> $16.50 </h3>
+              <br>
+              <p id=remove > remove </p>
+          </div>
+          <img src="images/line.png" alt="line">
+      </div>
+
+      <div class="rightAlign cartSum">
+          <h3> total: $16.50</h3>
+          <h3 class="button dark"> check-out</h3>
+      </div>
+  </div>
+
+
+
+
+</body>
+
+</html>

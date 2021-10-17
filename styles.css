@@ -93,6 +93,11 @@ a {
     padding: 10px 100px;
   }
 
+  .dark {
+    background-color: #404040;
+    color: #EEEBE9;
+  }
+
 .arrow {
     padding: 10px 8px 0px 8px;
 }
@@ -123,6 +128,13 @@ a {
     clear:both;
 }
 
+.rightAlign {
+  float: right;
+}
+
+.leftAlign {
+  float: left;
+}
 
 /* photo grid styling */
 .grid {
@@ -139,7 +151,7 @@ a {
 /* title styling */
 .title {
     float: left;
-    margin: 0px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     clear: both;
 }
 
@@ -167,7 +179,7 @@ a {
 .pimage {
     padding: 0px 10px 10px 0px;
     float: left;
-    margin: -10px 10px 20px 10px;
+    margin: -25px 10px 20px 10px;
     display: block;
 }
 
@@ -236,7 +248,28 @@ a {
     padding: 0px 10px;
 }
 
-  
+/* cart page styling */
+.inCart {
+  float: left;
+  padding: 10px;
+}
+
+.cartPic {
+  margin-top: 10px;
+  padding: 5px 0px;
+}
+
+.cartText {
+  padding: 0px 10px;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 5px;
+}
+
+.cartSum {
+  padding: 0px 10px;
+}
+
 /* id styling */
 
 #centerImage {
@@ -252,12 +285,20 @@ a {
     padding: 8px 15px;
 }
 
+#cartItems {
+  margin: -10px 0px 0px -10px;
+}
+
 #cart2 {
     margin: 0px 10px -8px 0px;
 }
 
 
-
 #photoTitle {
     padding: 120px 0px 0px 0px;
+}
+
+/* remove item from cart */
+#remove {
+  text-decoration: underline;
 }
