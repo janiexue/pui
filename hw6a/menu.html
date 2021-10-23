@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- this is the MENU page for bun bun bakery -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bun Bun Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header and navigation -->
+    <div class="header">
+      <a href="index.html" class="logo"><img src="images/bun bun.png" 
+        alt="bun bun logo"></a>
+      <div class="headerRight">
+        <a href="index.html">home</a>
+        <a href="#about">about</a>
+        <a class="active" href="menu.html">menu/order</a>
+        <a id="cart" href="cart.html"><img src="images/cart.png" alt="cart"></a>
+        <p class="inline" id="cartItems">(0)</p>
+      </div>
+    </div>
+  
+    <!-- center content: title and product cards -->
+    <div class="center">
+        <h1 class="title"> our menu </h1>
+    </div>
+
+    <div class="center">
+    
+    <!-- first three products -->
+        <div class="column">
+            <a href="#product-og">
+            <div class="pcard" style="clear:both;">
+                
+                <div class="pcardText">
+                    <h2><b>original</b></h2>
+                    <p>A classic dessert bun that will never disappoint.</p>
+                </div>
+                <img src="images/bunog.png" alt="original">
+            </div>
+            </a>
+
+            <a href="#product-gf">
+            <div class="pcard">
+                <div class="pcardText">
+                    <h2><b>gluten-free</b></h2>
+                    <p>A classic bun evolved into tasty gluten-free form.</p>
+                </div>
+                <img src="images/bungf.png" alt="gluten-free">
+            </div>
+            </a>
+
+            <a href="prod-bb.html">
+            <div class="pcard">
+                <div class="pcardText">
+                    <h2><b>blackberry</b></h2>
+                    <p>A delicious berry fresh, fruit-infused bun.</p>
+                </div>
+                <img src="images/bunbb.png" alt="blackberry">
+            </div>
+            </a>
+        </div>
+
+    <!-- remaining three products -->
+        <div class="column">
+            <a href="#product-ps">
+            <div class="pcard">
+                <div class="pcardText">
+                    <h2><b>pumpkin spice</b></h2>
+                    <p>A basic bun? Perhaps. A delicious bun? Always.</p>
+                </div>
+                <img src="images/bunps.png" alt="pumpkin spice">
+            </div>
+            </a>
+
+            <a href="#product-wal">
+            <div class="pcard">
+                <div class="pcardText">
+                    <h2><b>walnut</b></h2>
+                    <p>A delicate bun with just a hint of walnut crunch.</p>
+                </div>
+                <img src="images/bunwal.png" alt="walnut">
+            </div>
+            </a>
+
+            <a href="#product-cp">
+            <div class="pcard">
+                <div class="pcardText">
+                    <h2><b>caramel pecan</b></h2>
+                    <p>How do you pronounce these two words?</p>
+                </div>
+                <img src="images/buncp.png" alt="caramel pecan">
+            </div>
+            </a>
+        </div>
+
+    </div>
+  
+  </body>
+  
+  </html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- this is PRODUCT - BLACKBERRY page for bun bun bakery -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bun Bun Bakery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- header and navigation -->
+    <div class="header">
+      <a href="index.html" class="logo"><img src="images/bun bun.png" 
+        alt="bun bun logo"></a>
+      <div class="headerRight">
+        <a href="index.html">home</a>
+        <a href="#about">about</a>
+        <a class="active" href="menu.html">menu/order</a>
+        <a id="cart" href="cart.html"><img src="images/cart.png" alt="cart"></a>
+        <p class="inline" id="cartItems">(0)</p>
+      </div>
+    </div>
+     
+    <!-- back button -->
+    <div class="center">
+        <a class="title" href="menu.html">
+            <h3> &lt; back to menu </h3>
+        </a>
+    </div>
+    <!-- right side: image, description -->
+    <div class="center">
+      <div class="column left">
+        <div class="pimage">
+            <img id="pimg" src="images/bunbb-full.png" alt="blackberry bun">
+        </div>
+        <div class="pdes">
+            <h1 id="ptitle">blackberry bun</h1>
+            <p id="pdescription">A delicous, blackberry-infused cinnamon roll. 
+                Filled with organic jam from local jam-makers.
+            </p>
+        </div>
+        <div class="pdetails">
+            <h3>ingredients</h3>
+            <hr>
+            <h3>reviews</h3>
+            <hr>
+            <h3>shipping</h3>
+            <hr>
+        </div>
+
+      </div>
+
+    <!-- left side: selection options, purchasing -->
+      <div class="column right inline">
+          <div class="scard">
+               <!-- flavor options -->
+              <h3> flavor </h3>
+              <p class="sdes">select from six original flavors</p>
+              <p class="option flv" id="og" onclick="selectFlv()">original</p>
+              <p class="option flv" id="gf" onclick="selectFlv()">gluten-free</p>
+              <p class="option flv selected" id="bb" onclick="selectFlv()">blackberry</p>
+              <p class="option flv" id="ps" onclick="selectFlv()">pumpkin spice</p>
+              <p class="option flv" id="wal" onclick="selectFlv()">walnut</p>
+              <p class="option flv" id="cp" onclick="selectFlv()">caramel pecan</p>
+              <br><br><br> 
+
+              <!-- glaze options-->
+              <h3> glaze </h3>
+              <p class="sdes">choose from four unique glazes</p>
+              <p class="option glz selected" id="none" onclick="selectGlaze()">none</p>
+              <p class="option glz" id = "sugar-milk" onclick="selectGlaze()">sugar-milk</p>
+              <p class="option glz" id = "vanilla-milk" onclick="selectGlaze()">vanilla-milk</p>
+              <p class="option glz" id = "double-choc" onclick="selectGlaze()">double-choc</p>
+              <br><br><br>
+
+              <!-- quantity options-->
+              <h3> quantity </h3>
+              <p class="sdes">decide how many buns to enjoy</p>
+              <p class="option qty selected" id="1" onclick="selectQty()">1</p>
+              <p class="option qty" id ="3" onclick="selectQty()">3</p>
+              <p class="option qty" id ="6" onclick="selectQty()">6</p>
+              <p class="option qty" id="12" onclick="selectQty()">12</p>
+          </div>
+
+          <div class="price">
+              <h3 id="price"> price: $2.00 </h3>
+              <h3 class="button" onclick="addToCart()"> <img id="cart2" src="images/cart.png" alt="cart"> add to cart</h3>
+          </div>
+ 
+      </div>
+    </div>
+  
+  
+  
+  </body>
+  
+  </html>
