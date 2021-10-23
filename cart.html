@@ -11,9 +11,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <script src="main.js"></script>
 </head>
 
-<body>
+<body onload="onLoad()">
+
   <!-- header and navigation -->
   <div class="header">
     <a href="index.html" class="logo"><img src="images/bun bun.png" alt="bun bun logo"></a>
@@ -22,13 +24,13 @@
       <a href="#about">about</a>
       <a href="menu.html">menu/order</a>
       <a id="cart" href="cart.html"><img src="images/cart.png" alt="cart"></a>
-      <p class="inline" id="cartItems">(1)</p>
+      <p class="inline" id="cartItems"> (0) </p>
     </div>
   </div>
    
   <!-- center content -->
   <div class="center">
-    <h1 class="title"> your cart (1)</h1>
+    <h1 class="title"> your cart</h1>
   </div>
 
   <div class="center">
