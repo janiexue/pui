@@ -267,11 +267,9 @@ a {
   line-height: 5px;
 }
 
-
-
 .cartSuggest {
   clear: both;
-  margin-top: 200px;
+  margin-top: 250px;
   margin-bottom: 20px;
   padding: 10px;
 
@@ -281,6 +279,8 @@ a {
 #cartSum {
   padding: 10px 10px;
   clear:both;
+  margin-right: 150px;
+  text-align: right;
 }
 
 #centerImage {
@@ -309,7 +309,14 @@ a {
     padding: 120px 0px 0px 0px;
 }
 
+#emptyCart {
+  padding: 50px 0px;
+
+}
+
 /* remove item from cart */
 #remove {
   text-decoration: underline;
+  text-align: right;
+  cursor: pointer;
 }
