@@ -250,8 +250,9 @@ a {
 
 /* cart page styling */
 .inCart {
-  float: left;
-  padding: 10px;
+  clear: both;
+  padding: 0px 10px 10px 10px;
+
 }
 
 .cartPic {
@@ -266,18 +267,21 @@ a {
   line-height: 5px;
 }
 
-.cartSum {
-  padding: 0px 10px;
-}
+
 
 .cartSuggest {
-  margin-top: 500px;
+  clear: both;
+  margin-top: 200px;
   margin-bottom: 20px;
   padding: 10px;
 
 }
 
 /* id styling */
+#cartSum {
+  padding: 10px 10px;
+  clear:both;
+}
 
 #centerImage {
     display: block;
