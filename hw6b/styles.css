@@ -1,0 +1,322 @@
+/* css file for bun bun bakery */
+
+body {
+  font-family: 'Rubik', Helvetica, sans-serif;
+  background-color: #EEEBE9;
+  color: #404040;
+}
+
+/* general text format */
+p {
+  font-family: 'Rubik', Helvetica, sans-serif; 
+  font-size: 20px; 
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  line-height: 0;
+  font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* link styling */
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+/* header template from W3Schools */
+/* style the header */
+.header {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 20px 50px;
+  overflow: hidden;
+}
+  /* style the header links */
+.header a {
+  float: left;
+  color: #404040;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 15px;
+  border-radius: 4px;
+  align-items: center;
+  }
+  
+  /* style the logo link */
+  .header a.logo {
+    font-size: 15px;
+  }
+  
+  /* style the active/current link*/
+  .header a.active {
+    color: #404040;
+    text-decoration: underline;
+  }
+  
+  /* float the link section to the right */
+  .headerRight {
+    float: right;
+  }
+
+/* styling button */
+.button {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border: 3px solid #404040;
+    color: #404040;
+    background-color: #EEEBE9;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: -0.5rem 0rem;
+    vertical-align: middle;
+  }
+  
+  .longButton {
+    border: 3px solid #404040;
+    padding: 10px 100px;
+  }
+
+  .dark {
+    background-color: #404040;
+    color: #EEEBE9;
+  }
+
+.arrow {
+    padding: 10px 8px 0px 8px;
+}
+
+/* for each page's main content */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+/* column styling */
+.column {
+    flex: 100%;
+    clear: both;
+  }
+
+.left {
+    width: 45%;
+    float: left;
+}
+
+.right {
+    width: 55%;
+    clear:both;
+}
+
+.rightAlign {
+  float: right;
+}
+
+.leftAlign {
+  float: left;
+}
+
+/* photo grid styling */
+.grid {
+    margin: 10px;
+    vertical-align: middle;
+}
+
+/* inline styling */
+.inline {
+    display: inline-block;
+    bottom: auto;
+}
+
+/* title styling */
+.title {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    clear: both;
+}
+
+/* product cards for MENU */
+.pcard {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 15px;
+    margin: 10px 30px 20px 10px;
+    background-color: #E7E3DF;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Rubik', Helvetica, sans-serif; 
+    float: left;
+  }
+
+.pcardText {
+    width: 0;
+    min-width: 100%;
+    text-align: left;
+    margin: 1rem 1rem -0.5rem 1rem;
+}
+
+/* product description styling for PROD */
+.pimage {
+    padding: 0px 10px 10px 0px;
+    float: left;
+    margin: -25px 10px 20px 10px;
+    display: block;
+}
+
+.pdes {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -20px;
+    padding: 0px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.pdetails {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+/* shop card styling for PROD */
+
+/* overall card */
+.scard {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    padding:  10px 20px 20px 20px;
+    margin: 70px 10px 20px 10px;
+    background-color: #E7E3DF;
+    border-radius: 20px;
+    text-align: left;
+    font-family: 'Rubik', Helvetica, sans-serif; 
+    float: right;
+    width: 60%;
+    line-height: 5px;
+}
+
+
+/* italic descriptions */
+.sdes {
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* option buttons */
+.option {
+    border: 2px solid #404040;
+    color: #404040;
+    background-color: #EEEBE9;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin: 5px 5px 5px 0px;
+  }
+
+.selected {
+    background-color: #D9D2CC;
+    box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.price {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: right;
+    clear: both;
+    padding: 0px 10px;
+}
+
+/* cart page styling */
+.inCart {
+  clear: both;
+  padding: 0px 10px 10px 10px;
+
+}
+
+.cartPic {
+  margin-top: 10px;
+  padding: 5px 0px;
+}
+
+.cartText {
+  padding: 0px 10px;
+  margin-top: 10px;
+  text-align: left;
+  line-height: 5px;
+}
+
+.cartSuggest {
+  clear: both;
+  margin-top: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+
+/* id styling */
+#cartSum {
+  padding: 10px 10px;
+  clear:both;
+  margin-right: 150px;
+  text-align: right;
+}
+
+#centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 40px 5px 0px 5px;
+    text-align: center;
+  }
+
+#cart {
+    padding: 8px 15px;
+}
+
+#cartItems {
+  margin: -10px 0px 0px -10px;
+}
+
+#cart2 {
+    margin: 0px 10px -8px 0px;
+}
+
+
+#photoTitle {
+    padding: 120px 0px 0px 0px;
+}
+
+#emptyCart {
+  padding: 50px 0px;
+
+}
+
+/* remove item from cart */
+#remove {
+  text-decoration: underline;
+  text-align: right;
+  cursor: pointer;
+}

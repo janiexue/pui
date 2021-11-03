@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- this is HOME page for bun bun bakery -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bun Bun Bake Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <script src="main.js"></script>
+</head>
+
+<body onload="onLoad()">
+  <!-- header and navigation -->
+  <div class="header">
+    <a href="index.html" class="logo"><img src="images/bun bun.png" alt="bun bun logo"></a>
+    <div class="headerRight">
+      <a class="active" href="index.html">home</a>
+      <a href="#about">about</a>
+      <a href="menu.html">menu/order</a>
+      <a id="cart" href="cart.html"><img src="images/cart.png" alt="cart"></a>
+      <p class="inline" id="cartItems">(0)</p>
+    </div>
+  </div>
+   
+  <!-- center content -->
+
+  <!-- logo and title image -->
+  <div id="centerImage">
+      <img src="images/head image.png" alt="bun bun logo and icon">
+    </div>
+
+  <!-- menu/order button -->
+  <div class="center">
+    <a class="button longButton" href="menu.html"><h2> menu / order </h2></a>
+  </div>
+
+  <!-- photo grid title -->
+  <div id="photoTitle" class="center">
+    <img class="arrow" src="images/arrow.png" alt="arrow">
+    <h2 class="inline" > check out these buns </h2>
+    <img class="arrow" src="images/arrow.png" alt="arrow">
+  </div>
+  <!-- photo grid -->
+  <div class="center">
+    <div class="column">
+      <img class="grid" src="images/bun1.png" alt="a plated bun">
+      <img class="grid" src="images/bun2.png" alt="glazing buns">
+      <img class="grid" src="images/bun3.png" alt="bun collection">
+      <img class="grid" src="images/bun4.png" alt="tray of buns">
+    </div>
+    <div class="column">
+      <img class="grid" src="images/bun4.png" alt="tray of buns">
+      <img class="grid" src="images/bun3.png" alt="bun collection">
+      <img class="grid" src="images/bun2.png" alt="glazing buns">
+      <img class="grid" src="images/bun1.png" alt="a plated bun">
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
